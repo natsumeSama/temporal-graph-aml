@@ -1,0 +1,32 @@
+# Data files - do not push large datasets
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.zip
+
+# Models and artifacts
+models/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# Reports generated locally
+reports/figures/
+reports/*.html
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.venv/
+kaggle.json
+
+# OS files
+.DS_Store
+Thumbs.db

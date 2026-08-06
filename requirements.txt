@@ -1,0 +1,10 @@
+kagglehub
+polars
+pandas
+numpy
+matplotlib
+pyarrow
+tqdm
+scikit-learn
+lightgbm
+networkx
